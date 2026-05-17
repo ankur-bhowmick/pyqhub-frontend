@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: '/api'
+    baseURL: 'https://pyqhub-backend-k94y.onrender.com/api'
 });
 
 // Add token and handle FormData content-type
